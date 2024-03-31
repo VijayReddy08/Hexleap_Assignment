@@ -52,7 +52,7 @@ export default function Home() {
           </div>
 
           <div className="mt-10 text-center">
-            <button className="bg-[#2C9CF0] py-[10px] px-[30px] rounded-[3px] drop-shadow-[0_0.25rem_0.5rem_rgba(0, 0, 0, 0.05)]">
+            <button className="bg-[#2C9CF0] py-[10px] px-[30px] rounded-[3px] drop-shadow-[0_4px_8px_rgba(0, 0, 0, 0.05)]">
               <span className="inter text-[0.875rem]/[1.618125rem] text-[#FFFFFF]">
                 See More
               </span>

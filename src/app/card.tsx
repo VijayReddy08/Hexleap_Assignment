@@ -11,7 +11,7 @@ type CardProps = {
 
 export default function Card(cardprops: CardProps) {
   return (
-    <div className="p-2 flex flex-col shrink-0 w-fit drop-shadow-[0_0.25rem_0.5rem_rgba(0, 0, 0, 0.05)] bg-[#FFFFFF] dark:bg-[#3B3E47]">
+    <div className="p-2 flex flex-col shrink-0 w-fit drop-shadow-[0_4px_8px_rgba(0, 0, 0, 0.05)] bg-[#FFFFFF] dark:bg-[#3B3E47]">
       <figure>
         <Image
           src={cardprops.imgsrc}

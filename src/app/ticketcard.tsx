@@ -14,10 +14,10 @@ export default function TicketCard(ticketprops: TicketProps) {
   return (
     <div
       id={ticketprops.id}
-      className="flex flex-col w-fit bg-[#FFFFFF] dark:bg-[#3B3E47] drop-shadow-[0_0.25rem_0.5rem_rgba(0, 0, 0, 0.1)]"
+      className="flex flex-col w-fit bg-[#FFFFFF] dark:bg-[#3B3E47] drop-shadow-[0_4px_8px_rgba(0, 0, 0, 0.1)]"
     >
       <div className="relative">
-        <figure className="flex justify-center drop-shadow-[0_0.25rem_0.5rem_rgba(0, 0, 0, 0.2)]">
+        <figure className="flex justify-center drop-shadow-[0_4px_8px_rgba(0, 0, 0, 0.2)]">
           <Image
             src={ticketprops.imgsrc}
             alt={ticketprops.team}
@@ -40,7 +40,7 @@ export default function TicketCard(ticketprops: TicketProps) {
         <div className="w-[1.25rem] h-[1.25rem] rounded-full bg1 bg2 absolute bottom-[0px] right-[-0.625rem]"></div>
       </div>
 
-      <div className="p-2 flex flex-col bg-[#FFFFFF] dark:bg-[#3B3E47] drop-shadow-[0_0.25rem_0.5rem_rgba(0, 0, 0, 0.1)]">
+      <div className="p-2 flex flex-col bg-[#FFFFFF] dark:bg-[#3B3E47] drop-shadow-[0_4px_8px_rgba(0, 0, 0, 0.1)]">
         <h4 className="poppins pb-2 text-[#000000] text-[1.0625rem]/[1.6575rem] font-medium text-center dark:text-[#FFFFFF]">
           {ticketprops.team}
         </h4>

@@ -9,7 +9,7 @@ type AdProps = {
 
 export default function AdCard(adprops: AdProps) {
   return (
-    <div className="w-min card p-2 flex flex-col shrink-0 w-fit drop-shadow-[0_0.25rem_0.5rem_rgba(0, 0, 0, 0.05)] bg-[#FFFFFF] dark:bg-[#3B3E47]">
+    <div className="w-min card p-2 flex flex-col shrink-0 w-fit drop-shadow-[0_4px_8px_rgba(0, 0, 0, 0.05)] bg-[#FFFFFF] dark:bg-[#3B3E47]">
       <figure className="card-image relative">
         <Image
           src={adprops.img}
